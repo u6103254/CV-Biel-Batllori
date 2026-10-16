@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biel Batllori's CV: third-year Computer Engineering student at the University of Girona, with hospitality experience and a personal video automation project.">
+    <title>Biel Batllori | Online CV</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <!-- Semantic structure and list navigation follow the HTML session examples. -->
+    <header class="site-header" id="top">
+      <div class="wrapper header-content">
+        <a class="brand" href="#profile"><span>BB</span> Biel Batllori</a>
+        <nav>
+          <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="main-content" class="wrapper">
+      <section class="profile" id="profile">
+        <div class="profile-text">
+          <p class="eyebrow">Curriculum vitae &nbsp;/&nbsp; Biel Batllori</p>
+          <h1>Biel<br>Batllori<span class="accent">.</span></h1>
+          <p class="role">Computer Engineering student</p>
+          <p class="introduction">I am a third-year Computer Engineering student at the University of Girona. I combine my studies with hospitality experience and a particular interest in process automation.</p>
+          <a class="button-link" href="#project">Explore my project &rarr;</a>
+        </div>
+        <!-- Image and alternative text follow 02_IntroToHTML.pdf, pages 57-60. -->
+        <aside class="profile-panel">
+          <p class="panel-label">University of Girona</p>
+          <img class="profile-photo" src="assets/biel-batllori.png" alt="Portrait of Biel Batllori">
+          <div class="panel-bottom">
+            <p>Degree in Computer Engineering</p>
+            <p class="panel-course">Year 3 <span>&middot; In progress</span></p>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Flexbox adapts the biography and contact layout example. -->
+      <section class="cv-section" id="education">
+        <div class="section-heading">
+          <p class="section-number">01 / EDUCATION</p>
+          <h2>Learning<br>to build.</h2>
+        </div>
+        <div class="section-content education-list">
+          <article class="education-item current-study">
+            <p class="item-label">In progress &middot; Year 3</p>
+            <h3>Degree in Computer Engineering</h3>
+            <p>University of Girona</p>
+            <p class="secondary-text">GEINF</p>
+          </article>
+          <article class="education-item">
+            <p class="item-label">Completed</p>
+            <h3>Upper secondary education</h3>
+            <p class="secondary-text">Batxillerat</p>
+          </article>
+          <article class="education-item">
+            <p class="item-label">Completed</p>
+            <h3>Compulsory secondary education</h3>
+            <p class="secondary-text">ESO</p>
+          </article>
+          <article class="education-item last-item">
+            <p class="item-label">Completed</p>
+            <h3>Primary education</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="cv-section" id="experience">
+        <div class="section-heading">
+          <p class="section-number">02 / EXPERIENCE</p>
+          <h2>Working<br>as a team.</h2>
+        </div>
+        <div class="section-content">
+          <p class="item-label">Hospitality</p>
+          <h3 class="experience-title">Waiter and kitchen service coordinator</h3>
+          <p>Experience in customer service as a waiter and in coordinating service from the kitchen.</p>
+          <ul class="experience-list">
+            <li>Serving and assisting customers.</li>
+            <li>Organising service from the kitchen.</li>
+            <li>Coordinating with the team during service.</li>
+          </ul>
+          <p class="experience-note">Practical experience that brings together organisation, communication and teamwork.</p>
+        </div>
+      </section>
+
+      <section class="project-section" id="project">
+        <div class="project-heading">
+          <div>
+            <p class="section-number">03 / PERSONAL PROJECT</p>
+            <h2>From video idea<br>to publication.</h2>
+          </div>
+          <p class="project-category">Content automation</p>
+        </div>
+        <div class="project-description">
+          <h3>Video generation and publishing bot</h3>
+          <p>The goal of my personal project is to automate a bot that generates and publishes videos on YouTube, TikTok and Reels from a single prompt: the type of video I want to create.</p>
+          <p class="secondary-text">The workflow below shows the intended outcome of the project.</p>
+        </div>
+        <!-- These steps describe the project objective; they do not operate the bot. -->
+        <ol class="project-steps">
+          <li>
+            <p class="step-number">01</p>
+            <h3>Define</h3>
+            <p>Specify the type of video to create.</p>
+          </li>
+          <li>
+            <p class="step-number">02</p>
+            <h3>Generate</h3>
+            <p>Automate video generation based on the prompt.</p>
+          </li>
+          <li class="last-step">
+            <p class="step-number">03</p>
+            <h3>Publish</h3>
+            <p>Automate publishing on YouTube, TikTok and Reels.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="cv-section" id="skills">
+        <div class="section-heading">
+          <p class="section-number">04 / SKILLS</p>
+          <h2>Practice<br>as a starting point.</h2>
+        </div>
+        <div class="section-content skills-columns">
+          <div class="skill-group">
+            <h3>Service experience</h3>
+            <ul>
+              <li>Customer service</li>
+              <li>Service organisation</li>
+              <li>Team coordination</li>
+            </ul>
+          </div>
+          <div class="skill-group last-skill-group">
+            <h3>Multimedia coursework</h3>
+            <ul>
+              <li>Content structure with HTML</li>
+              <li>Visual presentation with CSS</li>
+              <li>Responsive layouts with Flexbox</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="section-number">05 / CONTACT</p>
+          <h2>Let’s stay in touch.</h2>
+        </div>
+        <div class="contact-details">
+          <p class="contact-name">Biel Batllori</p>
+          <p class="contact-label">Email</p>
+          <p class="contact-link"><a href="mailto:u6103254@campus.udg.edu">u6103254@campus.udg.edu</a></p>
+          <p class="contact-label">Phone</p>
+          <p class="contact-link">+34 067676767</p>
+        </div>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrapper footer-content">
+        <p>Biel Batllori &middot; Multimedia &middot; University of Girona</p>
+        <a href="#top">Back to top &uarr;</a>
+      </div>
+    </footer>
+  </body>
+</html>
