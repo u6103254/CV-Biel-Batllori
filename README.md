@@ -6,6 +6,8 @@ The page was prepared for the Multimedia and User Interfaces course. Its content
 
 **Figma design:** [CV Biel Batllori](https://www.figma.com/design/UPK1KRds4TlUTJZ2zVilxD/CV-Biel-Batllori?node-id=1-2&t=xzVIfu3sy3nJvoQF-1)
 
+**Live website:** [CV Biel Batllori](https://u6103254.github.io/CV-Biel-Batllori/)
+
 ## Project analysis: user profile
 
 ### A visitor I designed for
